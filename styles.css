@@ -1,0 +1,165 @@
+body {
+    background-color: #f9fafc;
+}
+h1, h5, p, a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800, normal;
+  
+}
+.nav-title {
+    color: #69696a; 
+    font-weight: bold;
+    font-family:  "Open Sans", sans-serif;
+    
+  }
+  p {
+    color: 69696a;
+    font-weight: 800;
+    border-left: 2px solid #69696a;
+    padding-left: 15px;
+  }
+  li {
+    list-style: none;
+}
+
+    a {
+        color: #69696a;
+        text-decoration: none;
+    }
+    .navbar ul {
+        padding: 0;
+        margin: 0;
+        font-weight: 800;
+    }
+    .primary-button,  .default-button {
+    background-color: #000000;
+    color: #f9fafc;
+    border-radius: 18px;
+    padding: 8px 15px;
+    min-width: 65px;
+    text-align: center;
+    display: block
+    }
+    h5, p, a {
+        font-size: 14px;
+    }
+    
+
+@media screen and (min-width: 768px) {
+body {
+    font-weight: 800;
+    width: 100%;
+    background-color: #f9fafc;
+    padding: 0 22px;
+  }
+  
+  h1,
+  h5,
+  p,
+  a {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800, normal;
+  }
+  .navbar ul li {
+    margin: 20px;
+  }
+  .nav-title {
+    color: #69696a;
+  }
+  
+  a {
+    color: #69696a;
+    font-weight: 800;
+    text-decoration: none;
+  }
+  
+  p {
+    color: 69696a;
+    font-weight: 800;
+    border-left: 2px solid #69696a;
+    padding-left: 15px;
+    width: 100%;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: 700px;
+  }
+  a:hover {
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    padding: 8 25px;
+    border-radius: 18px;
+    display: block;
+    transition: none;
+  }
+  
+  .orange-dot {
+    height: 250px;
+    width: 250px;
+    background-color: rgba(247, 193, 162, 0.7);
+    border-radius: 50%;
+    display: inline-block;
+    z-index: 3;
+    position: absolute;
+    left: 65%;
+ 
+    
+  }
+  .purple-dot {
+    height: 170px;
+    width: 170px;
+    background-color: rgba(207, 130, 213, 0.6);
+    border-radius: 50%;
+    display: inline-block;
+    z-index: 5;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+       
+  }
+  .pink-dot {
+    height: 350px;
+    width: 350px;
+    background-color: rgba(247, 136, 167, 0.6);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    
+  
+  }
+  .bottom-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .primary-button {
+    background-color: black;
+    color: #ffffff;
+    padding: 12px;
+    border-radius: 100px;
+    display: block;
+    transition: none;
+  }
+  .right-container {
+    margin-top: 3%;
+  }
+  .container {
+    display: flex;
+    height: 450px;
+    margin-top: 5%;
+    position: relative;
+  }
+  .left {
+    width: 50%;
+    position: relative;
+  }
+}
